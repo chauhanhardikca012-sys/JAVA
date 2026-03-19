@@ -1,0 +1,8 @@
+import java.util.Arrays;
+	public class Ascending{
+		public static void main(String[] args) {
+			int[] array = {5, 3, 9, 1, 7};
+				Arrays.sort(array);
+		System.out.print("Sorted array in ascending order: " + Arrays.toString(array));
+}
+}

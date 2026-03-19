@@ -1,0 +1,13 @@
+public class ExtendThread extends Thread {
+
+    public static void main(String[] args) {
+        ExtendThread thread = new ExtendThread();
+        thread.start();
+
+        System.out.println("Outside of the thread");
+    }
+
+    public void run() {
+        System.out.println("This code is running in a thread");
+    }
+}
